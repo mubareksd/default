@@ -1,0 +1,28 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
+    "@commitlint/load": "^18.4.4",
+    "@prettier/plugin-php": "^0.22.1",
+    "commitlint": "^18.4.4",
+    "commitlint-config-gitmoji": "^2.3.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.2.1"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,html,css,json}": [
+      "pnpm prettier --write"
+    ]
+  }
+}

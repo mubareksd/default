@@ -1,0 +1,23 @@
+{
+  "hash": "07ee059d5c5de5a3fa72eef405feb1db21ebf604fe02e5ba1a82928ddef13772",
+  "prompts": [
+    "Please manualy set the prompt for rule \"start-with-gitmoji\".",
+    "The type should always be one of the following values: \n  - build\n  - ci\n  - docs\n  - feat\n  - fix\n  - perf\n  - refactor\n  - revert\n  - style\n  - test\n  - chore\n  - wip.",
+    "There should always be a blank line at the beginning of the body.",
+    "There should always be a blank line at the beginning of the footer.",
+    "The header should always have 100 characters or less.",
+    "The scope should always be in lower-case case.",
+    "The subject should never be empty.",
+    "The subject should never end with '.'.",
+    "The type should always be in lower-case case.",
+    "The type should never be empty."
+  ],
+  "consistency": {
+    "english": {
+      "localLanguage": "english",
+      "commitFix": "fix(server): change port variable to uppercase",
+      "commitFeat": "feat(server): allow server to listen on specified port",
+      "commitDescription": "Change the variable 'port' to uppercase 'PORT' to fix a bug. Allow the server to listen on a port specified through the environment variable as a new feature."
+    }
+  }
+}
