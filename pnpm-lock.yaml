@@ -19,7 +19,7 @@ devDependencies:
     version: 0.22.1(prettier@3.2.2)
   commitlint:
     specifier: ^18.4.4
-    version: 18.4.4(@types/node@20.11.0)(typescript@5.3.3)
+    version: 18.5.0(@types/node@20.11.0)(typescript@5.3.3)
   commitlint-config-gitmoji:
     specifier: ^2.3.1
     version: 2.3.1
@@ -55,6 +55,26 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       chalk: 2.4.2
       js-tokens: 4.0.0
+    dev: true
+
+  /@commitlint/cli@18.5.0(@types/node@20.11.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-g/N0mJBrHcTdiccUpJknS6/ru45eIEAZyhEy9sL2ILjzK2IVNrpzlAPtxEr8bZCZLGwPBUrQ5UCIIu4uebhImw==}
+    engines: {node: '>=v18'}
+    hasBin: true
+    dependencies:
+      '@commitlint/format': 18.4.4
+      '@commitlint/lint': 18.5.0
+      '@commitlint/load': 18.5.0(@types/node@20.11.0)(typescript@5.3.3)
+      '@commitlint/read': 18.4.4
+      '@commitlint/types': 18.4.4
+      execa: 5.1.1
+      lodash.isfunction: 3.0.9
+      resolve-from: 5.0.0
+      resolve-global: 1.0.0
+      yargs: 17.7.2
+    transitivePeerDependencies:
+      - '@types/node'
+      - typescript
     dev: true
 
   /@commitlint/cli@18.5.0(@types/node@20.11.0)(typescript@5.3.3):
@@ -131,6 +151,16 @@ packages:
     dependencies:
       '@commitlint/types': 18.4.4
       semver: 7.5.4
+    dev: true
+
+  /@commitlint/lint@18.5.0:
+    resolution: {integrity: sha512-4VbfTGTZf/aDaOn+vednMQFu5EIKfERvv7j8La3etQCra0O2QMrZL28xugTroYekawpTkiWWvLswtpVfabIbgw==}
+    engines: {node: '>=v18'}
+    dependencies:
+      '@commitlint/is-ignored': 18.4.4
+      '@commitlint/parse': 18.4.4
+      '@commitlint/rules': 18.4.4
+      '@commitlint/types': 18.4.4
     dev: true
 
   /@commitlint/lint@18.5.0:
@@ -495,8 +525,8 @@ packages:
       gitmojis: 3.14.0
     dev: true
 
-  /commitlint@18.4.4(@types/node@20.11.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-O9ubyj1HKvaah/NGG76S6BPNb2J4I+17qYfGcnK7wtqXWEQ6dv/nZqydpA14PHxlpEmItEhjhqvQrnw9Q4bYpA==}
+  /commitlint@18.5.0(@types/node@20.11.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-wnd3B9wDJGz3KQE1qrrlz7Xn4e33rWAJ3AONIhwsFHcEVjE4BgIVRTAdXOpbnhZKZfMz+pqnRre65fgcWEg8dg==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
