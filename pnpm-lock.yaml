@@ -16,7 +16,7 @@ devDependencies:
     version: 18.6.0(@types/node@20.11.5)(typescript@5.3.3)
   '@prettier/plugin-php':
     specifier: ^0.22.1
-    version: 0.22.1(prettier@3.2.4)
+    version: 0.22.1(prettier@3.2.5)
   commitlint:
     specifier: ^18.5.0
     version: 18.6.0(@types/node@20.11.5)(typescript@5.3.3)
@@ -31,7 +31,7 @@ devDependencies:
     version: 15.2.1
   prettier:
     specifier: ^3.2.4
-    version: 3.2.4
+    version: 3.2.5
 
 packages:
 
@@ -245,7 +245,7 @@ packages:
       '@gitmoji/gitmoji-regex': 1.0.0
     dev: true
 
-  /@prettier/plugin-php@0.22.1(prettier@3.2.4):
+  /@prettier/plugin-php@0.22.1(prettier@3.2.5):
     resolution: {integrity: sha512-TN7tzC2/jCM1/H/mlUjqPos8lIV+vm8Qwp83KofuZclGlG9PoUWHU7m0yqskjAoCy+R4ZCV0hxdBLPBkU69S2Q==}
     peerDependencies:
       prettier: ^3.0.0
@@ -253,7 +253,7 @@ packages:
       linguist-languages: 7.27.0
       mem: 9.0.2
       php-parser: 3.1.5
-      prettier: 3.2.4
+      prettier: 3.2.5
     dev: true
 
   /@types/minimist@1.2.5:
@@ -1226,8 +1226,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.2.4:
-    resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
+  /prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
