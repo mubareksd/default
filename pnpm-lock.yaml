@@ -13,7 +13,7 @@ devDependencies:
     version: 19.0.3
   '@commitlint/load':
     specifier: ^19.0.0
-    version: 19.0.0(@types/node@20.11.5)(typescript@5.3.3)
+    version: 19.0.3(@types/node@20.11.5)(typescript@5.3.3)
   '@prettier/plugin-php':
     specifier: ^0.22.1
     version: 0.22.2(prettier@3.2.5)
@@ -82,14 +82,6 @@ packages:
       conventional-changelog-conventionalcommits: 7.0.2
     dev: true
 
-  /@commitlint/config-validator@19.0.0:
-    resolution: {integrity: sha512-oxJ2k+jBPRyWzv1ixfxwGZO5DJ1S+v3D8u/QESMwuPh3kQmeOYBRxGI+5FDWMwiVSHpztlhvvxDAU9SFXeMqUA==}
-    engines: {node: '>=v18'}
-    dependencies:
-      '@commitlint/types': 19.0.3
-      ajv: 8.12.0
-    dev: true
-
   /@commitlint/config-validator@19.0.3:
     resolution: {integrity: sha512-2D3r4PKjoo59zBc2auodrSCaUnCSALCx54yveOFwwP/i2kfEAQrygwOleFWswLqK0UL/F9r07MFi5ev2ohyM4Q==}
     engines: {node: '>=v18'}
@@ -141,25 +133,6 @@ packages:
       '@commitlint/types': 19.0.3
     dev: true
 
-  /@commitlint/load@19.0.0(@types/node@20.11.5)(typescript@5.3.3):
-    resolution: {integrity: sha512-pC/6xDjkWPWgqfILY0KMMpxz0dTZqC7fUpxyWMLRrlbZCC9S54/gsg/8UltFrUH+C+F1zz4Ip8CQgzKonpH6rg==}
-    engines: {node: '>=v18'}
-    dependencies:
-      '@commitlint/config-validator': 19.0.0
-      '@commitlint/execute-rule': 19.0.0
-      '@commitlint/resolve-extends': 19.0.0
-      '@commitlint/types': 19.0.0
-      chalk: 5.3.0
-      cosmiconfig: 8.3.6(typescript@5.3.3)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.11.5)(cosmiconfig@8.3.6)(typescript@5.3.3)
-      lodash.isplainobject: 4.0.6
-      lodash.merge: 4.6.2
-      lodash.uniq: 4.5.0
-    transitivePeerDependencies:
-      - '@types/node'
-      - typescript
-    dev: true
-
   /@commitlint/load@19.0.3(@types/node@20.11.5)(typescript@5.3.3):
     resolution: {integrity: sha512-18Tk/ZcDFRKIoKfEcl7kC+bYkEQ055iyKmGsYDoYWpKf6FUvBrP9bIWapuy/MB+kYiltmP9ITiUx6UXtqC9IRw==}
     engines: {node: '>=v18'}
@@ -203,18 +176,6 @@ packages:
       minimist: 1.2.8
     dev: true
 
-  /@commitlint/resolve-extends@19.0.0:
-    resolution: {integrity: sha512-ej0fALn5yZQOYKH8wPZnzw5LGvD0n5gJBPvV6DnMiSYudqgwYwhdNJ//MukZCXNpLIM1yMA8KUyrCP6D4WnUbg==}
-    engines: {node: '>=v18'}
-    dependencies:
-      '@commitlint/config-validator': 19.0.0
-      '@commitlint/types': 19.0.3
-      import-fresh: 3.3.0
-      import-meta-resolve: 4.0.0
-      lodash.mergewith: 4.6.2
-      resolve-global: 2.0.0
-    dev: true
-
   /@commitlint/resolve-extends@19.0.3:
     resolution: {integrity: sha512-18BKmta8OC8+Ub+Q3QGM9l27VjQaXobloVXOrMvu8CpEwJYv62vC/t7Ka5kJnsW0tU9q1eMqJFZ/nN9T/cOaIA==}
     engines: {node: '>=v18'}
@@ -255,13 +216,6 @@ packages:
     engines: {node: '>=v14'}
     dependencies:
       chalk: 4.1.2
-    dev: true
-
-  /@commitlint/types@19.0.0:
-    resolution: {integrity: sha512-qLjLUdYXKi0TIavONrjBkxrElp7KguqDbvzIRbqTdJBV/cAAr8QEhHe1qUq8OcCM3gFWTlUrDz3ISZbkRoGsAg==}
-    engines: {node: '>=v18'}
-    dependencies:
-      chalk: 5.3.0
     dev: true
 
   /@commitlint/types@19.0.3:
@@ -1053,13 +1007,6 @@ packages:
   /resolve-from@5.0.0:
     resolution: {integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==}
     engines: {node: '>=8'}
-    dev: true
-
-  /resolve-global@2.0.0:
-    resolution: {integrity: sha512-gnAQ0Q/KkupGkuiMyX4L0GaBV8iFwlmoXsMtOz+DFTaKmHhOO/dSlP1RMKhpvHv/dh6K/IQkowGJBqUG0NfBUw==}
-    engines: {node: '>=18'}
-    dependencies:
-      global-directory: 4.0.1
     dev: true
 
   /restore-cursor@4.0.0:
